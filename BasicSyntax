@@ -1,0 +1,49 @@
+# Comment
+Arithmetic operators
+> 2 + 3   # Addition
+Output: [1] 5
+> 2 + 3 + 5
+Output: [1] 10
+> 2 - 4   # Subtraction
+Output: [1] -2
+> 2 * 3   # Multiplication
+Output: [1] 6
+> (2 + 3) * 4
+Output: [1] 20
+> 11 / 3   # Division
+Output: [1] 3.666667
+> 11 %/% 3  # Integer Division
+Output: [1] 3
+> 11 %% 3   # Modulus - remainder after the division
+Output: [1] 2
+> 2^3     # Raise to a power
+Output: [1] 8
+> 2**3    # Raise to a power
+Output: [1] 8
+
+Getting help
+> ?Arithmetic
+> help("Arithmetic")
+
+Using example we can run the examples in the end of the documentation
+> example("Arithmetic")
+Using apropos we can look for similar function names
+
+> apropos("sq")
+[1] "chisq.test" "dchisq"     "pchisq"     "qchisq"     "rchisq"    
+[6] "sqrt"       "sQuote"    
+Using find we can find from which package is the function
+
+> find("sqrt")
+[1] "package:base"
+
+Assignment operators
+> ?assignOps
+
+> x = 5
+> y <- 5  # Recommended
+> 5 -> z
+> x; y; z # Prints
+[1] 5
+[1] 5
+[1] 5
