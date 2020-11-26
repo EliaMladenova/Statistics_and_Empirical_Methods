@@ -1,0 +1,5 @@
+> install.packages("MASS")
+> library(MASS)
+> names(survey)
+> head(survey)
+> summary(survey)
